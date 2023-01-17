@@ -56,6 +56,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dac\AbmAlumno.cs" />
     <Compile Include="Data\DBEscuelaEFContext.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -71,6 +72,14 @@
     <Compile Include="Migrations\202301162018094_AulaYMateria.designer.cs">
       <DependentUpon>202301162018094_AulaYMateria.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202301171839213_cambios3.cs" />
+    <Compile Include="Migrations\202301171839213_cambios3.designer.cs">
+      <DependentUpon>202301171839213_cambios3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202301171847221_cambios4.cs" />
+    <Compile Include="Migrations\202301171847221_cambios4.designer.cs">
+      <DependentUpon>202301171847221_cambios4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Aula.cs" />
     <Compile Include="Models\Materia.cs" />
@@ -78,11 +87,20 @@
     <Compile Include="Models\Alumno.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202301162016246_DeCero.resx">
       <DependentUpon>202301162016246_DeCero.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202301162018094_AulaYMateria.resx">
       <DependentUpon>202301162018094_AulaYMateria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301171839213_cambios3.resx">
+      <DependentUpon>202301171839213_cambios3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301171847221_cambios4.resx">
+      <DependentUpon>202301171847221_cambios4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
